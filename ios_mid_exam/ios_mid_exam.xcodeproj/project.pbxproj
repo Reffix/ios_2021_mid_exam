@@ -12,8 +12,10 @@
 		A96211EF2787547200E6525D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96211EE2787547200E6525D /* ViewController.swift */; };
 		A96211F22787547200E6525D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A96211F02787547200E6525D /* Main.storyboard */; };
 		A96211F52787547200E6525D /* ios_mid_exam.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A96211F32787547200E6525D /* ios_mid_exam.xcdatamodeld */; };
-		A96211F72787548E00E6525D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A96211F62787548E00E6525D /* Assets.xcassets */; };
 		A96211FA2787548E00E6525D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A96211F82787548E00E6525D /* LaunchScreen.storyboard */; };
+		A96212022787560E00E6525D /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96212012787560D00E6525D /* Model.swift */; };
+		A962120627875BDA00E6525D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A962120527875BDA00E6525D /* Assets.xcassets */; };
+		A962120A2787626000E6525D /* MovieTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96212092787626000E6525D /* MovieTableCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,9 +25,11 @@
 		A96211EE2787547200E6525D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A96211F12787547200E6525D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A96211F42787547200E6525D /* ios_mid_exam.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ios_mid_exam.xcdatamodel; sourceTree = "<group>"; };
-		A96211F62787548E00E6525D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A96211F92787548E00E6525D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A96211FB2787548E00E6525D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A96212012787560D00E6525D /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		A962120527875BDA00E6525D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A96212092787626000E6525D /* MovieTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,10 +66,12 @@
 				A96211EC2787547200E6525D /* SceneDelegate.swift */,
 				A96211EE2787547200E6525D /* ViewController.swift */,
 				A96211F02787547200E6525D /* Main.storyboard */,
-				A96211F62787548E00E6525D /* Assets.xcassets */,
+				A96212012787560D00E6525D /* Model.swift */,
+				A962120527875BDA00E6525D /* Assets.xcassets */,
 				A96211F82787548E00E6525D /* LaunchScreen.storyboard */,
 				A96211FB2787548E00E6525D /* Info.plist */,
 				A96211F32787547200E6525D /* ios_mid_exam.xcdatamodeld */,
+				A96212092787626000E6525D /* MovieTableCell.swift */,
 			);
 			path = ios_mid_exam;
 			sourceTree = "<group>";
@@ -129,7 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A96211FA2787548E00E6525D /* LaunchScreen.storyboard in Resources */,
-				A96211F72787548E00E6525D /* Assets.xcassets in Resources */,
+				A962120627875BDA00E6525D /* Assets.xcassets in Resources */,
 				A96211F22787547200E6525D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,10 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A96212022787560E00E6525D /* Model.swift in Sources */,
 				A96211EF2787547200E6525D /* ViewController.swift in Sources */,
 				A96211EB2787547200E6525D /* AppDelegate.swift in Sources */,
 				A96211ED2787547200E6525D /* SceneDelegate.swift in Sources */,
 				A96211F52787547200E6525D /* ios_mid_exam.xcdatamodeld in Sources */,
+				A962120A2787626000E6525D /* MovieTableCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
